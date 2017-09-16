@@ -41,7 +41,8 @@ outletTwo = new Switch("Outlet Two", 85, outletTwoOn, outletTwoOff);
 outletThree = new Switch("Outlet Three", 86, outletThreeOn, outletThreeOff);
 outletFour = new Switch("Outlet Four", 87,outletFourOn, outletFourOff);
 
-//relay pins setup i Used D1,D2,D3,D4,D5,D6,D7,D8 followed as assigned below, if you are willing to change Pin or planning to use extra please Check Image in Github File..:)
+//relay pins setup i Used D1,D2,D3,D4,D5,D6,D7,D8 followed as assigned below,
+//if you are willing to change Pin or planning to use extra please Check Image in Github File..:)
     pinMode (5, OUTPUT);
     pinMode (4, OUTPUT);
     pinMode (0, OUTPUT);
