@@ -130,84 +130,84 @@ void loop()
 
 void lightOneOff() {
     Serial.print("Switch 1 turn off ...");
-    digitalWrite(relayOne, HIGH);   // sets relayOne off
+    digitalWrite(relayOne, LOW);   // sets relayOne off
 }
 
 void lightOneOn() {
     Serial.print("Switch 1 turn on ...");
-    digitalWrite(relayOne, LOW);   // sets relayOne on
+    digitalWrite(relayOne, HIGH);   // sets relayOne on
 }
 
 void lightTwoOff() {
     Serial.print("Switch 2 turn off ...");
-    digitalWrite(relayTwo, HIGH);   // sets relayOne o
+    digitalWrite(relayTwo, LOW);   // sets relayOne o
 }
 
 void lightTwoOn() {
   Serial.print("Switch 2 turn on ...");
-  digitalWrite(relayTwo, LOW);   // sets relayOne on
+  digitalWrite(relayTwo, HIGH);   // sets relayOne on
 }
 
 void lightThreeOff() {
     Serial.print("Switch 3 turn off ...");
-    digitalWrite(relayThree, HIGH);   // sets relayOne on
+    digitalWrite(relayThree, LOW);   // sets relayOne on
 }
 
 void lightThreeOn() {
   Serial.print("Switch 3 turn on ...");
-  digitalWrite(relayThree, LOW);   // sets relayOne on
+  digitalWrite(relayThree, HIGH);   // sets relayOne on
 }
 
 void lightFourOff() {
     Serial.print("Switch4 turn off ...");
-    digitalWrite(relayFour, HIGH);   // sets relayOne on
+    digitalWrite(relayFour, LOW);   // sets relayOne on
 }
 
 void lightFourOn() {
   Serial.print("Switch 4 turn on ...");
-  digitalWrite(relayFour, LOW);   // sets relayOne on
+  digitalWrite(relayFour, HIGH);   // sets relayOne on
 }
 
 //sockets
 
 void outletOneOff() {
     Serial.print("Socket 1 turn off ...");
-    digitalWrite(relayFive, HIGH);   // sets relayOne on
+    digitalWrite(relayFive, LOW);   // sets relayOne on
 }
 
 void outletOneOn() {
     Serial.print("Socket 1turn on ...");
-    digitalWrite(relayFive, LOW);   // sets relayOne off
+    digitalWrite(relayFive, HIGH);   // sets relayOne off
 }
 
 void outletTwoOff() {
     Serial.print("Socket 2 turn off ...");
-    digitalWrite(relaySix, HIGH);   // sets relayOne on
+    digitalWrite(relaySix, LOW);   // sets relayOne on
 }
 
 void outletTwoOn() {
   Serial.print("Socket 2 turn on ...");
-  digitalWrite(relaySix, LOW);   // sets relayOne on
+  digitalWrite(relaySix, HIGH);   // sets relayOne on
 }
 
 void outletThreeOff() {
     Serial.print("Socket 3 turn off ...");
-    digitalWrite(relaySeven, HIGH);   // sets relayOne on
+    digitalWrite(relaySeven, LOW);   // sets relayOne on
 }
 
 void outletThreeOn() {
     Serial.print("Socket 3 turn on ...");
-    digitalWrite(relaySeven, LOW);   // sets relayOne off
+    digitalWrite(relaySeven, HIGH);   // sets relayOne off
 }
 
 void outletFourOff() {
     Serial.print("Socket  4 turn off ...");
-    digitalWrite(relayEight, HIGH);   // sets relayOne on
+    digitalWrite(relayEight, LOW);   // sets relayOne on
 }
 
 void outletFourOn() {
   Serial.print("Socket 4 turn on ...");
-  digitalWrite(relayEight, LOW);   // sets relayOne on
+  digitalWrite(relayEight, HIGH);   // sets relayOne on
 }
 
 // connect to wifi – returns true if successful or false if not
