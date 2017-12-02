@@ -101,14 +101,14 @@ void setup()
     pinMode (12, OUTPUT);
     pinMode (13, OUTPUT);
     pinMode (15, OUTPUT);
-    digitalWrite (5,HIGH);
-    digitalWrite (4,HIGH);
-    digitalWrite (0,HIGH);
-    digitalWrite (2,HIGH);
-    digitalWrite (14,HIGH);
-    digitalWrite (12,HIGH);
-    digitalWrite (13,HIGH);
-    digitalWrite (15,HIGH);
+    digitalWrite (5,LOW);
+    digitalWrite (4,LOW);
+    digitalWrite (0,LOW);
+    digitalWrite (2,LOW);
+    digitalWrite (14,LOW);
+    digitalWrite (12,LOW);
+    digitalWrite (13,LOW);
+    digitalWrite (15,LOW);
   }
 }
  
